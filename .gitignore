@@ -10,3 +10,5 @@
 /vendor/
 /web/bundles/
 /web/media/
+web/assets/.sass-cache/
+.sass-cache
