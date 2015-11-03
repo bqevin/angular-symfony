@@ -1,6 +1,8 @@
 
-var App = angular.module('App', []);
+var App = angular.module('App', ['ngFileUpload','firebase']);
 
-App.controller('AppController', ['$scope', function($scope){
-    
+App.controller('AppController', [
+    '$scope','Upload','$timeout','$firebaseArray',
+    function($scope, Upload, $timeout, $firebaseArray){
+
 }]);
